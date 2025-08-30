@@ -1,4 +1,9 @@
 <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-  <path fill="#3B82F6" d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,26A12,12,0,1,1,28,16,12,12,0,0,1,16,28Z"/>
-  <path fill="#3B82F6" d="M16,8a8,8,0,1,0,8,8A8,8,0,0,0,16,8Zm0,14a6,6,0,1,1,6-6A6,6,0,0,1,16,22Z"/>
+  <defs>
+    <linearGradient id="attractiveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#attractiveGrad)" d="M16 2 L2 9 v14 l14 7 l14-7 V9 L16 2z m0 2.24L28.24 9 L16 15.76L3.76 9L16 4.24z M4 11.38v10.24l12 6.86v-10.24L4 11.38z m24 0l-12 6.86v10.24l12-6.86V11.38z"/>
 </svg>

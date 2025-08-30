@@ -7,22 +7,22 @@ export const Product = () => {
             <img
               src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Product Image 1"
-              className="aspect-square w-full rounded-xl object-cover"
+              className="aspect-square w-full rounded-xl object-cover transition-transform duration-300 ease-in-out hover:scale-105"
             />
             <img
               src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Product Image 2"
-              className="aspect-square w-full rounded-xl object-cover"
+              className="aspect-square w-full rounded-xl object-cover transition-transform duration-300 ease-in-out hover:scale-105"
             />
             <img
               src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Product Image 3"
-              className="aspect-square w-full rounded-xl object-cover"
+              className="aspect-square w-full rounded-xl object-cover transition-transform duration-300 ease-in-out hover:scale-105"
             />
             <img
               src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Product Image 4"
-              className="aspect-square w-full rounded-xl object-cover"
+              className="aspect-square w-full rounded-xl object-cover transition-transform duration-300 ease-in-out hover:scale-105"
             />
           </div>
           <div className="space-y-4 lg:order-first">

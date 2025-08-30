@@ -21,7 +21,7 @@ export const CTA = () => {
           <div className="mx-auto w-full max-w-sm space-x-2">
             <Button
               size="lg"
-              className="bg-gradient-to-r from-purple-600 to-pink-500 text-white"
+              className="bg-gradient-to-r from-purple-600 to-pink-500 text-white transition-transform duration-300 ease-in-out hover:scale-105"
               onClick={() => setIsModalOpen(true)}
             >
               Sign Up for Free

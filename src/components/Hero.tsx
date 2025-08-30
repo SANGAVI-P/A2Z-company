@@ -15,10 +15,10 @@ export const Hero = () => {
             </p>
           </div>
           <div className="space-x-4">
-            <Button asChild size="lg" className="bg-white text-black hover:bg-gray-200">
+            <Button asChild size="lg" className="bg-white text-black hover:bg-gray-200 transition-transform duration-300 ease-in-out hover:scale-105">
               <a href="#pricing">Get Started</a>
             </Button>
-            <Button asChild size="lg" className="bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm border border-white/30">
+            <Button asChild size="lg" className="bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm border border-white/30 transition-transform duration-300 ease-in-out hover:scale-105">
               <a href="#features">Learn More</a>
             </Button>
           </div>

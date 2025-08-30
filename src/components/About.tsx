@@ -5,7 +5,7 @@ export const About = () => {
         <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-12">
           <div className="space-y-4">
             <div className="inline-block rounded-lg bg-blue-500 px-3 py-1 text-sm text-white">
-              About Our Mission
+              Forging the Future
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
               Our Mission
@@ -21,7 +21,7 @@ export const About = () => {
           <img
             src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="About Us"
-            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full transition-transform duration-300 ease-in-out hover:scale-105"
           />
         </div>
       </div>

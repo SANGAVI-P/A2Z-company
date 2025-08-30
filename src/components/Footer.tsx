@@ -7,10 +7,10 @@ export const Footer = () => {
         © 2024 A2Z Company. All rights reserved.
       </p>
       <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-        <Link to="#" className="text-xs hover:underline underline-offset-4">
+        <Link to="#" className="text-xs hover:underline underline-offset-4 transition-transform duration-300 ease-in-out hover:scale-110 inline-block">
           Terms of Service
         </Link>
-        <Link to="#" className="text-xs hover:underline underline-offset-4">
+        <Link to="#" className="text-xs hover:underline underline-offset-4 transition-transform duration-300 ease-in-out hover:scale-110 inline-block">
           Privacy
         </Link>
       </nav>

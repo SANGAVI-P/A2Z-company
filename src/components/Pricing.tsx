@@ -1,7 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
+import { useState } from "react";
+import { showSuccess } from "@/utils/toast";
 
 export const Pricing = () => {
+  const [selectedPlan, setSelectedPlan] = useState<string | null>(null);
+
+  const handleChoosePlan = (planName: string) => {
+    setSelectedPlan(planName);
+    showSuccess(`You have successfully purchased the ${planName} plan!`);
+  };
+
   return (
     <section id="pricing" className="w-full py-12 md:py-16 lg:py-20 bg-gray-900">
       <div className="container px-4 md:px-6">
@@ -39,7 +48,13 @@ export const Pricing = () => {
                 Basic Support
               </li>
             </ul>
-            <Button>Choose Plan</Button>
+            <Button
+              onClick={() => handleChoosePlan("Basic")}
+              disabled={selectedPlan !== null}
+              className={selectedPlan === "Basic" ? "bg-green-500 hover:bg-green-600" : ""}
+            >
+              {selectedPlan === "Basic" ? "Purchased" : "Choose Plan"}
+            </Button>
           </div>
           <div className="grid gap-4 p-6 rounded-lg border-2 border-purple-600 bg-gray-800 shadow-lg relative">
             <div className="absolute top-0 -translate-y-1/2 px-3 py-1 text-sm bg-purple-600 text-white rounded-full">
@@ -64,7 +79,13 @@ export const Pricing = () => {
                 Priority Support
               </li>
             </ul>
-            <Button className="bg-gradient-to-r from-purple-600 to-pink-500 text-white">Choose Plan</Button>
+            <Button
+              onClick={() => handleChoosePlan("Pro")}
+              disabled={selectedPlan !== null}
+              className={selectedPlan === "Pro" ? "bg-green-500 hover:bg-green-600" : "bg-gradient-to-r from-purple-600 to-pink-500 text-white"}
+            >
+              {selectedPlan === "Pro" ? "Purchased" : "Choose Plan"}
+            </Button>
           </div>
           <div className="grid gap-4 p-6 rounded-lg border border-gray-700 bg-gray-800 shadow-sm">
             <h3 className="text-2xl font-bold text-center text-white">Enterprise</h3>
@@ -86,7 +107,13 @@ export const Pricing = () => {
                 24/7 Support
               </li>
             </ul>
-            <Button>Choose Plan</Button>
+            <Button
+              onClick={() => handleChoosePlan("Enterprise")}
+              disabled={selectedPlan !== null}
+              className={selectedPlan === "Enterprise" ? "bg-green-500 hover:bg-green-600" : ""}
+            >
+              {selectedPlan === "Enterprise" ? "Purchased" : "Choose Plan"}
+            </Button>
           </div>
         </div>
       </div>

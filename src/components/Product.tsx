@@ -1,6 +1,6 @@
 export const Product = () => {
   return (
-    <section id="product" className="w-full py-12 md:py-16 lg:py-20 bg-gray-900">
+    <section id="product" className="w-full py-12 md:py-16 lg:py-20">
       <div className="container px-4 md:px-6">
         <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-12">
           <div className="grid grid-cols-2 gap-4">

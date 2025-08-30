@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Twitter, Linkedin, Facebook } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <section id="contact" className="w-full py-12 md:py-16 lg:py-20 bg-gray-800 text-white">
+    <section id="contact" className="w-full py-12 md:py-16 lg:py-20">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -41,9 +41,9 @@ export const Contact = () => {
             </div>
           </div>
           <form className="space-y-4">
-            <Input type="text" placeholder="Your Name" className="bg-gray-700 border-gray-600 text-white placeholder:text-gray-400" />
-            <Input type="email" placeholder="Your Email" className="bg-gray-700 border-gray-600 text-white placeholder:text-gray-400" />
-            <Textarea placeholder="Your Message" className="bg-gray-700 border-gray-600 text-white placeholder:text-gray-400" />
+            <Input type="text" placeholder="Your Name" className="bg-white/10 border-white/20 text-white placeholder:text-gray-300" />
+            <Input type="email" placeholder="Your Email" className="bg-white/10 border-white/20 text-white placeholder:text-gray-300" />
+            <Textarea placeholder="Your Message" className="bg-white/10 border-white/20 text-white placeholder:text-gray-300" />
             <Button type="submit" className="w-full bg-gradient-to-r from-purple-600 to-pink-500 text-white transition-transform duration-300 ease-in-out hover:scale-105">
               Send Message
             </Button>

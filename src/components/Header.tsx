@@ -4,7 +4,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <header className="px-4 lg:px-6 h-14 flex items-center sticky top-0 z-50 w-full bg-gray-900 border-b border-gray-800 text-white">
+    <header className="px-4 lg:px-6 h-14 flex items-center sticky top-0 z-50 w-full bg-white/10 backdrop-blur-lg border-b border-white/20 text-white">
       <RouterLink to="/" className="flex items-center justify-center">
         <Hexagon className="h-6 w-6" />
         <span className="ml-2 font-semibold">A2Z Company</span>

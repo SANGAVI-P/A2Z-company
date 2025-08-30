@@ -12,7 +12,7 @@ export const Pricing = () => {
   };
 
   return (
-    <section id="pricing" className="w-full py-12 md:py-16 lg:py-20 bg-gray-900">
+    <section id="pricing" className="w-full py-12 md:py-16 lg:py-20">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -28,7 +28,7 @@ export const Pricing = () => {
           </div>
         </div>
         <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-          <div className="grid gap-4 p-6 rounded-lg border border-gray-700 bg-gray-800 shadow-sm transition-transform duration-300 ease-in-out hover:scale-105">
+          <div className="grid gap-4 p-6 rounded-lg border border-white/20 bg-white/10 backdrop-blur-sm shadow-sm transition-transform duration-300 ease-in-out hover:scale-105">
             <h3 className="text-2xl font-bold text-center text-white">Basic</h3>
             <div className="text-4xl font-bold text-center text-white">$29</div>
             <div className="text-sm text-gray-400 text-center">
@@ -56,7 +56,7 @@ export const Pricing = () => {
               {selectedPlan === "Basic" ? "Purchased" : "Choose Plan"}
             </Button>
           </div>
-          <div className="grid gap-4 p-6 rounded-lg border-2 border-purple-600 bg-gray-800 shadow-lg relative transition-transform duration-300 ease-in-out hover:scale-105">
+          <div className="grid gap-4 p-6 rounded-lg border-2 border-purple-600 bg-white/10 backdrop-blur-sm shadow-lg relative transition-transform duration-300 ease-in-out hover:scale-105">
             <div className="absolute top-0 -translate-y-1/2 px-3 py-1 text-sm bg-purple-600 text-white rounded-full">
               Most Popular
             </div>
@@ -87,7 +87,7 @@ export const Pricing = () => {
               {selectedPlan === "Pro" ? "Purchased" : "Choose Plan"}
             </Button>
           </div>
-          <div className="grid gap-4 p-6 rounded-lg border border-gray-700 bg-gray-800 shadow-sm transition-transform duration-300 ease-in-out hover:scale-105">
+          <div className="grid gap-4 p-6 rounded-lg border border-white/20 bg-white/10 backdrop-blur-sm shadow-sm transition-transform duration-300 ease-in-out hover:scale-105">
             <h3 className="text-2xl font-bold text-center text-white">Enterprise</h3>
             <div className="text-4xl font-bold text-center text-white">$199</div>
             <div className="text-sm text-gray-400 text-center">

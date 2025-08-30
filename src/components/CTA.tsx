@@ -13,7 +13,7 @@ export const CTA = () => {
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
               Ready to Dive In?
             </h2>
-            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="mx-auto max-w-[600px] text-gray-200 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Start your free trial today and discover a new way to work. No
               credit card required.
             </p>

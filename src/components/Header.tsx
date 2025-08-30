@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
-import { Aperture } from "lucide-react";
+import { Hexagon } from "lucide-react";
 import { Link as RouterLink } from "react-router-dom";
 
 export const Header = () => {
   return (
     <header className="px-4 lg:px-6 h-14 flex items-center sticky top-0 z-50 w-full bg-gray-900 border-b border-gray-800 text-white">
       <RouterLink to="/" className="flex items-center justify-center">
-        <Aperture className="h-6 w-6" />
+        <Hexagon className="h-6 w-6" />
         <span className="ml-2 font-semibold">A2Z Company</span>
       </RouterLink>
       <nav className="ml-auto flex gap-4 sm:gap-6 items-center">

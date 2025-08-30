@@ -17,12 +17,6 @@ export const Header = () => {
           Home
         </a>
         <a
-          href="#features"
-          className="text-sm font-medium text-gray-300 hover:text-white underline-offset-4 hover:underline"
-        >
-          Features
-        </a>
-        <a
           href="#about"
           className="text-sm font-medium text-gray-300 hover:text-white underline-offset-4 hover:underline"
         >

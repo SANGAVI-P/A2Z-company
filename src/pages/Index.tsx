@@ -7,9 +7,11 @@ import { Footer } from "@/components/Footer";
 const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-1">
+      <div className="bg-gradient-to-br from-purple-600 via-blue-500 to-pink-500 text-white">
+        <Header />
         <Hero />
+      </div>
+      <main className="flex-1">
         <Features />
         <CTA />
       </main>

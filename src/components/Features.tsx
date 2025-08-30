@@ -21,7 +21,7 @@ export const Features = () => {
         <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
           <div className="grid gap-1 text-center">
             <div className="flex justify-center items-center">
-              <Zap className="h-8 w-8 text-primary mb-2" />
+              <Zap className="h-8 w-8 text-purple-600 mb-2" />
             </div>
             <h3 className="text-xl font-bold">Blazing Fast</h3>
             <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -30,7 +30,7 @@ export const Features = () => {
           </div>
           <div className="grid gap-1 text-center">
             <div className="flex justify-center items-center">
-              <BarChart className="h-8 w-8 text-primary mb-2" />
+              <BarChart className="h-8 w-8 text-blue-500 mb-2" />
             </div>
             <h3 className="text-xl font-bold">Powerful Analytics</h3>
             <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -39,7 +39,7 @@ export const Features = () => {
           </div>
           <div className="grid gap-1 text-center">
             <div className="flex justify-center items-center">
-              <Users className="h-8 w-8 text-primary mb-2" />
+              <Users className="h-8 w-8 text-pink-500 mb-2" />
             </div>
             <h3 className="text-xl font-bold">Team Collaboration</h3>
             <p className="text-sm text-gray-500 dark:text-gray-400">

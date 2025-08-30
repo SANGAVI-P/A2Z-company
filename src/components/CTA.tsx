@@ -15,7 +15,7 @@ export const CTA = () => {
           </p>
         </div>
         <div className="mx-auto w-full max-w-sm space-x-2">
-          <Button asChild size="lg">
+          <Button asChild size="lg" className="bg-gradient-to-r from-purple-600 to-pink-500 text-white">
             <Link to="#">Sign Up for Free</Link>
           </Button>
         </div>

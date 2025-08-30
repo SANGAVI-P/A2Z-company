@@ -18,7 +18,7 @@ export const Hero = () => {
             <Button asChild size="lg" className="bg-white text-black hover:bg-gray-200">
               <a href="#pricing">Get Started</a>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-black transition-colors">
+            <Button asChild size="lg" className="bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm border border-white/30">
               <a href="#features">Learn More</a>
             </Button>
           </div>

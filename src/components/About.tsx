@@ -1,16 +1,16 @@
 export const About = () => {
   return (
-    <section id="about" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="about" className="w-full py-12 md:py-16 lg:py-20 bg-gray-800">
       <div className="container px-4 md:px-6">
         <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-12">
           <div className="space-y-4">
-            <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
+            <div className="inline-block rounded-lg bg-blue-500 px-3 py-1 text-sm text-white">
               About Us
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
               Our Mission
             </h2>
-            <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="max-w-[600px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               At A2Z Company, our mission is to empower teams to achieve their
               best work. We believe in creating tools that are not only powerful
               and efficient but also intuitive and enjoyable to use. Our team is

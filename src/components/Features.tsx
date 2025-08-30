@@ -2,7 +2,7 @@ import { Zap, BarChart, Users } from "lucide-react";
 
 export const Features = () => {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+    <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -19,7 +19,7 @@ export const Features = () => {
           </div>
         </div>
         <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-          <div className="grid gap-1 text-center">
+          <div className="grid gap-4 text-center p-6 rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl">
             <div className="flex justify-center items-center">
               <Zap className="h-8 w-8 text-purple-600 mb-2" />
             </div>
@@ -28,7 +28,7 @@ export const Features = () => {
               Experience unparalleled speed and performance.
             </p>
           </div>
-          <div className="grid gap-1 text-center">
+          <div className="grid gap-4 text-center p-6 rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl">
             <div className="flex justify-center items-center">
               <BarChart className="h-8 w-8 text-blue-500 mb-2" />
             </div>
@@ -37,7 +37,7 @@ export const Features = () => {
               Gain valuable insights with our advanced analytics tools.
             </p>
           </div>
-          <div className="grid gap-1 text-center">
+          <div className="grid gap-4 text-center p-6 rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl">
             <div className="flex justify-center items-center">
               <Users className="h-8 w-8 text-pink-500 mb-2" />
             </div>

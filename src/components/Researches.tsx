@@ -8,10 +8,10 @@ export const Researches = () => {
               Innovation-Driven
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white">
-              Pioneering the Future of Work
+              Pioneering the Future, Led by Sangavi
             </h2>
             <p className="max-w-[900px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Our relentless pursuit of innovation is what sets us apart. We're constantly exploring and implementing cutting-edge technologies to build a smarter, more intuitive platform for tomorrow's challenges.
+              Under the visionary leadership of our Head of R&D, Sangavi, our research division is at the forefront of technological innovation. We are currently pioneering advancements in AI-driven predictive analytics to automate complex workflows and exploring quantum-inspired algorithms for unprecedented optimization. This relentless pursuit of innovation is what sets us apart, building a smarter, more intuitive platform for tomorrow's challenges.
             </p>
           </div>
           <img

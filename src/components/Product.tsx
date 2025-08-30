@@ -33,10 +33,7 @@ export const Product = () => {
               Designed for Productivity
             </h2>
             <p className="max-w-[600px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Our platform is a comprehensive solution designed to tackle the
-              most complex challenges. With a user-centric design, it offers a
-              seamless experience, powerful integrations, and robust security
-              to ensure your data is always safe.
+              Our platform is a comprehensive solution designed to tackle the most complex challenges. With a user-centric design, it offers a seamless experience, powerful integrations with the tools you already use, and robust, enterprise-grade security to ensure your data is always safe and your team can work with confidence.
             </p>
           </div>
         </div>

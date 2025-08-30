@@ -17,13 +17,13 @@ export const Pricing = () => {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <div className="inline-block rounded-lg bg-blue-500 px-3 py-1 text-sm text-white">
-              Pricing
+              Find Your Fit
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white">
-              Simple, Transparent Pricing
+              Pricing That Scales With You
             </h2>
             <p className="max-w-[900px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Choose the plan that's right for you. No hidden fees, ever.
+              From solo ventures to enterprise teams, find the perfect plan to fuel your growth. All the features you need, with none of the hidden fees.
             </p>
           </div>
         </div>

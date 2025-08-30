@@ -3,14 +3,31 @@ export const Product = () => {
     <section id="product" className="w-full py-12 md:py-16 lg:py-20 bg-gray-900">
       <div className="container px-4 md:px-6">
         <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-12">
-          <img
-            src="https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt="Product"
-            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-          />
-          <div className="space-y-4">
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Product Image 1"
+              className="aspect-square w-full rounded-xl object-cover"
+            />
+            <img
+              src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Product Image 2"
+              className="aspect-square w-full rounded-xl object-cover"
+            />
+            <img
+              src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Product Image 3"
+              className="aspect-square w-full rounded-xl object-cover"
+            />
+            <img
+              src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Product Image 4"
+              className="aspect-square w-full rounded-xl object-cover"
+            />
+          </div>
+          <div className="space-y-4 lg:order-first">
             <div className="inline-block rounded-lg bg-pink-500 px-3 py-1 text-sm text-white">
-              Our Product
+              Crafted for Excellence
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
               Designed for Productivity

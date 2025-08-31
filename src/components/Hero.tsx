@@ -15,7 +15,7 @@ export const Hero = () => {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button size="lg" className="bg-white text-black hover:bg-gray-200 transition-transform duration-300 ease-in-out hover:scale-105">
+            <Button size="lg" className="bg-white text-black hover:bg-gray-200 transition-transform duration-300 ease-in-out hover:scale-105 animate-pulse-glow">
               Get Started
             </Button>
             <Button size="lg" className="bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm border border-white/30 transition-transform duration-300 ease-in-out hover:scale-105">

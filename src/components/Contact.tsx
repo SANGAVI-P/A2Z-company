@@ -9,7 +9,7 @@ export const Contact = () => {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-purple-600 px-3 py-1 text-sm text-white transition-transform duration-300 ease-in-out hover:scale-105">
+            <div className="inline-block rounded-lg bg-purple-600 px-3 py-1 text-sm text-white transition-all duration-300 ease-in-out hover:scale-105 shadow-lg shadow-purple-500/50 hover:shadow-xl hover:shadow-purple-500/70">
               Get in Touch
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">

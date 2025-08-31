@@ -14,7 +14,7 @@ export const Hero = () => {
               productivity, and drive success.
             </p>
           </div>
-          <div className="space-x-4">
+          <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Button size="lg" className="bg-white text-black hover:bg-gray-200 transition-transform duration-300 ease-in-out hover:scale-105">
               Get Started
             </Button>

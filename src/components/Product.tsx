@@ -26,7 +26,7 @@ export const Product = () => {
             />
           </div>
           <div className="space-y-4 lg:order-first">
-            <div className="inline-block rounded-lg bg-pink-500 px-3 py-1 text-sm text-white">
+            <div className="inline-block rounded-lg bg-pink-500 px-3 py-1 text-sm text-white transition-transform duration-300 ease-in-out hover:scale-105">
               Crafted for Excellence
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">

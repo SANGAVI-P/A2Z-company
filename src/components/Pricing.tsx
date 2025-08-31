@@ -28,7 +28,7 @@ export const Pricing = () => {
           </div>
         </div>
         <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-          <div className="grid gap-4 p-6 rounded-lg border border-white/20 bg-white/10 backdrop-blur-sm shadow-sm transition-transform duration-300 ease-in-out hover:scale-105">
+          <div className="grid gap-4 p-6 rounded-lg border border-white/20 bg-white/10 backdrop-blur-sm shadow-lg shadow-purple-500/20 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:shadow-purple-500/40">
             <h3 className="text-2xl font-bold text-center text-white">Basic</h3>
             <div className="text-4xl font-bold text-center text-white">₹2499</div>
             <div className="text-sm text-gray-400 text-center">
@@ -56,7 +56,7 @@ export const Pricing = () => {
               {selectedPlan === "Basic" ? "Purchased" : "Choose Plan"}
             </Button>
           </div>
-          <div className="grid gap-4 p-6 rounded-lg border-2 border-purple-600 bg-white/10 backdrop-blur-sm shadow-lg relative transition-transform duration-300 ease-in-out hover:scale-105">
+          <div className="grid gap-4 p-6 rounded-lg border-2 border-purple-600 bg-white/10 backdrop-blur-sm shadow-xl shadow-purple-600/30 relative transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-purple-600/50">
             <div className="absolute top-0 -translate-y-1/2 px-3 py-1 text-sm bg-purple-600 text-white rounded-full">
               Most Popular
             </div>
@@ -87,7 +87,7 @@ export const Pricing = () => {
               {selectedPlan === "Pro" ? "Purchased" : "Choose Plan"}
             </Button>
           </div>
-          <div className="grid gap-4 p-6 rounded-lg border border-white/20 bg-white/10 backdrop-blur-sm shadow-sm transition-transform duration-300 ease-in-out hover:scale-105">
+          <div className="grid gap-4 p-6 rounded-lg border border-white/20 bg-white/10 backdrop-blur-sm shadow-lg shadow-purple-500/20 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:shadow-purple-500/40">
             <h3 className="text-2xl font-bold text-center text-white">Enterprise</h3>
             <div className="text-4xl font-bold text-center text-white">₹15999</div>
             <div className="text-sm text-gray-400 text-center">

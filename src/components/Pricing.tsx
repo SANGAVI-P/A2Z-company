@@ -30,7 +30,7 @@ export const Pricing = () => {
         <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
           <div className="grid gap-4 p-6 rounded-lg border border-white/20 bg-white/10 backdrop-blur-sm shadow-sm transition-transform duration-300 ease-in-out hover:scale-105">
             <h3 className="text-2xl font-bold text-center text-white">Basic</h3>
-            <div className="text-4xl font-bold text-center text-white">$29</div>
+            <div className="text-4xl font-bold text-center text-white">₹2499</div>
             <div className="text-sm text-gray-400 text-center">
               per month
             </div>
@@ -61,7 +61,7 @@ export const Pricing = () => {
               Most Popular
             </div>
             <h3 className="text-2xl font-bold text-center text-white">Pro</h3>
-            <div className="text-4xl font-bold text-center text-white">$79</div>
+            <div className="text-4xl font-bold text-center text-white">₹6499</div>
             <div className="text-sm text-gray-400 text-center">
               per month
             </div>
@@ -89,7 +89,7 @@ export const Pricing = () => {
           </div>
           <div className="grid gap-4 p-6 rounded-lg border border-white/20 bg-white/10 backdrop-blur-sm shadow-sm transition-transform duration-300 ease-in-out hover:scale-105">
             <h3 className="text-2xl font-bold text-center text-white">Enterprise</h3>
-            <div className="text-4xl font-bold text-center text-white">$199</div>
+            <div className="text-4xl font-bold text-center text-white">₹15999</div>
             <div className="text-sm text-gray-400 text-center">
               per month
             </div>

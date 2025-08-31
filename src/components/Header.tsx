@@ -2,10 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Hexagon, Menu } from "lucide-react";
 import { Link as RouterLink } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("#home");
 
   const navLinks = [
     { href: "#home", label: "Home" },
@@ -14,6 +15,35 @@ export const Header = () => {
     { href: "#researches", label: "Researches" },
     { href: "#pricing", label: "Pricing" },
   ];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section[id]");
+      let currentSectionId = "";
+
+      sections.forEach((section) => {
+        const sectionEl = section as HTMLElement;
+        const sectionTop = sectionEl.offsetTop;
+        const sectionHeight = sectionEl.clientHeight;
+        const offset = 150; // Adjust this value to change when the highlight triggers
+
+        if (window.scrollY >= sectionTop - offset && window.scrollY < sectionTop + sectionHeight - offset) {
+          currentSectionId = `#${sectionEl.id}`;
+        }
+      });
+
+      if (currentSectionId) {
+        setActiveSection(currentSectionId);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Set initial active section on load
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <header className="px-4 lg:px-6 h-14 flex items-center sticky top-0 z-50 w-full bg-white/10 backdrop-blur-lg border-b border-white/20 text-white">
@@ -28,12 +58,14 @@ export const Header = () => {
           <a
             key={link.href}
             href={link.href}
-            className="text-sm font-medium text-gray-300 hover:text-white underline-offset-4 hover:underline"
+            className={`text-sm font-medium underline-offset-4 hover:underline transition-colors ${
+              activeSection === link.href ? 'text-white' : 'text-gray-300 hover:text-white'
+            }`}
           >
             {link.label}
           </a>
         ))}
-        <Button asChild variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-black transition-colors">
+        <Button asChild variant="outline" className={`bg-transparent border-white text-white hover:bg-white hover:text-black transition-colors ${activeSection === '#contact' ? 'bg-white text-black' : ''}`}>
           <a href="#contact">Contact</a>
         </Button>
       </nav>
@@ -57,7 +89,9 @@ export const Header = () => {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="text-gray-300 hover:text-white"
+                  className={`transition-colors ${
+                    activeSection === link.href ? 'text-white' : 'text-gray-300 hover:text-white'
+                  }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
@@ -65,7 +99,9 @@ export const Header = () => {
               ))}
               <a
                 href="#contact"
-                className="text-gray-300 hover:text-white"
+                className={`transition-colors ${
+                  activeSection === '#contact' ? 'text-white' : 'text-gray-300 hover:text-white'
+                }`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact

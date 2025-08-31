@@ -21,7 +21,7 @@ export const About = () => {
           <img
             src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="About Us"
-            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full transition-transform duration-300 ease-in-out hover:scale-105"
+            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full transition-all duration-300 ease-in-out hover:scale-105 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/40"
           />
         </div>
       </div>

@@ -17,7 +17,7 @@ export const Researches = () => {
           <img
             src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Research"
-            className="mx-auto aspect-[3/1] overflow-hidden rounded-xl object-cover object-center mt-8 transition-transform duration-300 ease-in-out hover:scale-105"
+            className="mx-auto aspect-[3/1] overflow-hidden rounded-xl object-cover object-center mt-8 transition-all duration-300 ease-in-out hover:scale-105 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/40"
           />
         </div>
       </div>
